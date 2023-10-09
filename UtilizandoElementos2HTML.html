@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UtilizandoElementos2HTML</title>
+</head>
+
+<body>
+    <p><strong>Para acessar um link externo</strong></p>
+    <button><del>Clique Aqui</del></button>
+    <a href="https://www.swarovski.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=BR_PT_Search_Branded_Core_Exact&utm_adgroup=Brand:+Core&utm_term=swarovski&creative=634933990521&device=c&placement=&gclid=EAIaIQobChMIo4niw-OQgQMVN0FIAB1nZwM0EAAYASAAEgIQnPD_BwE&gclsrc=aw.ds"><button>Clique Aqui</button></a>
+    
+    <p><em>Para acessar um link interno</em></p>
+    <a href="#midia"><ins>Seção Midia</ins></a>
+    <br><br>
+    <section id="media">
+        <img src="Imagens/labrador.jpg" height="250" width="320">
+        <br>
+        <a href="https://www.petz.com.br/blog/wp-content/uploads/2015/06/shutterstock_126021596.jpg"><button>Labrador</button></a>
+        <br><br>
+        <audio controls src="Audios/MusicaGalo.mp3"></audio>
+        <br><br>
+        <video height="250" width="320" controls src="Videos/LabradorVideo.mp4"></video>
+    </section>
+    <br>
+    <hr>
+
+    <h1>Exemplo de Formulário Tipo Get</h1>
+    <form method="get">
+        <fieldset>
+            <legend>Insira suas informações:</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome">
+            </div>
+
+            <div>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome">
+            </div>
+
+            <div>
+            <label for="email">Email:</label>
+            <input type="text" name="email">
+            </div>
+
+            <div>
+                <label for="data">Data:</label>
+                <input type="date" name="data">
+            </div>
+        </fieldset>
+        <br>
+        <div>
+            <label>Qual o seu porte de cachorro preferido?</label>
+            <label>
+                <input type="radio" name="porte" value="pequeno" checked>Pequeno
+            </label>
+            <label>
+                <input type="radio" name="porte" value="medio">Medio
+            </label>
+            <label>
+                <input type="radio" name="porte" value="grande">Grande
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="cor">Cor</label>
+            <select id="cor">
+                <option selected disabled value="">Selecione</option>
+                <option>Branco</option>
+                <option>Preto</option>
+                <option>Marrom</option>
+            </select>
+        </div>
+        <br>
+        <fieldset>
+            <div>
+                <label>Selecione as raças de cachorro que gosta:</label>
+                <input type="checkbox" name="raca1" value="Labrador">
+                <label for="raca1">Labrador</label>
+                <input type="checkbox" name="raca2" value="Pastor Alemao">
+                <label for="raca2">Pastor Alemão</label>
+                <input type="checkbox" name="raca3" value="Golden Retriever">
+                <label for="raca3">Golden Retriever</label>
+                <input type="checkbox" name="raca4" value="Bulldog Frances">
+                <label for="raca4">Bulldog Frances</label>
+                <input type="checkbox" name="raca5" value="Bulldog Ingles">
+                <label for="raca5">Bulldog Ingles</label>
+                <input type="checkbox" name="raca6" value="Pinscher">
+                <label for="raca6">Pinscher</label>
+            </div>
+        </fieldset>
+        <br>
+        <div>
+            <label>Conte um pouco sobre as caracteristicas que você mais gosta dos cachorros:</label>
+            <textarea row="6" style="width: 26em;" name="caeacteristicas"></textarea>
+        </div>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h1>Exemplo de Formulário Tipo Post</h1>
+    <form method="post">
+        <fieldset>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome">
+            </div>
+
+            <div>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome">
+            </div>
+
+            <div>
+            <label for="email">Email:</label>
+            <input type="text" name="email">
+            </div>
+
+            <div>
+                <label for="data">Data:</label>
+                <input type="date" name="data">
+            </div>
+        </fieldset>
+        <br>
+        <div>
+            <label>Qual o seu porte de cachorro preferido?</label>
+            <label>
+                <input type="radio" name="porte" value="pequeno" checked>Pequeno
+            </label>
+            <label>
+                <input type="radio" name="porte" value="medio">Medio
+            </label>
+            <label>
+                <input type="radio" name="porte" value="grande">Grande
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="cor">Cor</label>
+            <select id="cor">
+                <option selected disabled value="">Selecione</option>
+                <option>Branco</option>
+                <option>Preto</option>
+                <option>Marrom</option>
+            </select>
+        </div>
+        <br>
+        <fieldset>
+            <div>
+                <label>Selecione as raças de cachorro que gosta:</label>
+                <input type="checkbox" name="raca1" value="Labrador">
+                <label for="raca1">Labrador</label>
+                <input type="checkbox" name="raca2" value="Pastor Alemao">
+                <label for="raca2">Pastor Alemão</label>
+                <input type="checkbox" name="raca3" value="Golden Retriever">
+                <label for="raca3">Golden Retriever</label>
+                <input type="checkbox" name="raca4" value="Bulldog Frances">
+                <label for="raca4">Bulldog Frances</label>
+                <input type="checkbox" name="raca5" value="Bulldog Ingles">
+                <label for="raca5">Bulldog Ingles</label>
+                <input type="checkbox" name="raca6" value="Pinscher">
+                <label for="raca6">Pinscher</label>
+            </div>
+        </fieldset>
+        <br>
+        <div>
+            <label>Conte um pouco sobre as caracteristicas que você mais gosta dos cachorros:</label>
+            <textarea row="6" style="width: 26em;" name="caeacteristicas"></textarea>
+        </div>
+        <br>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>

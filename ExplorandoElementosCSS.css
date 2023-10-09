@@ -1,0 +1,34 @@
+h1{
+    font-size: 36px;
+}
+
+#div_um{
+    background-color: blue;
+    min-height: 5em;
+    border: 2px solid black;
+}
+
+h2{
+    color: white;
+}
+
+#fonte_diferente{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+#div_dois{
+    background-color: white;
+    width: 50%;
+    border:5px solid pink;
+}
+
+p{
+    font-size: 20px;
+}
+
+span{
+    color: red;
+    font-weight: bold;
+    background-color: aqua;
+}

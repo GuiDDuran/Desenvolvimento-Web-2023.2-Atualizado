@@ -1,0 +1,31 @@
+body{
+    background-color: blanchedalmond;
+    }
+div{
+    background-color: blueviolet;
+}
+h1{
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    color: blanchedalmond;
+    text-align: center;
+}
+p{
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    color: blanchedalmond;
+}
+h3{
+    color: blue;
+    text-align: center;;
+}
+menu{
+    color: blue;
+    text-align: center;
+}

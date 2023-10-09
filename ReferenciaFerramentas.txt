@@ -1,0 +1,3 @@
+https://www.python.org/ ide para desemvolvimento da linguagem python
+https://github.com/ onde os projetos/repositórios vão ficar salvos.
+https://code.visualstudio.com/ ide para o desenvolvimento de diversas linguagens e como editor de texto.
